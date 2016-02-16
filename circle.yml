@@ -1,14 +1,9 @@
 machine:
-    services:
+  services:
     - docker
-checkout:
-dependencies:
-database:
-test:
 deployment:
-    pypi:
-        branch: master
-        commands:
-            - sed -e "s/<username>/$username/" -e "s/<password>/$password/"< .pypirc.template > ~/.pyirc
-            - sudo python setup.py sdist upload -r pypi
-
+  pypi:
+    branch: master
+    commands:
+    - sed -e "s/<username>/$username/" -e "s/<password>/$password/"< .pypirc.template > ~/.pyirc
+    - sudo python setup.py sdist upload -r pypi
