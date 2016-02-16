@@ -23,6 +23,6 @@ More information
 ================
 """
 
-def joke():
+def file():
     return (u'Wenn ist das Nunst\u00fcck git und Slotermeyer? Ja! ... '
-            u'Beiherhund das Oder die Flipperwaldt gersput. ADD')
+            u'Beiherhund das Oder die Flipperwaldt gersput.')
