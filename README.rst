@@ -1,10 +1,21 @@
-dataserviceclient
-=================
-.. image:: images/logo2.png
+****************************************************************
+duke-data-service-pythonClient: dataserviceclient python package
+****************************************************************
+dataserviceclient is a python package that aims to make programmatic access
+to the `Duke Data Service`_ easy and enjoyable. 
 
-Python client for the .. _DukeDataService: https://github.com/Duke-Translational-Bioinformatics/duke-data-service .
-
+============
 Installation
-------------
-The .. _Data Service Python Client is on PyPI: https://pypi.python.org/pypi/dataserviceclient and can be installed with pip::
-    (sudo) pip install dataserviceclient
+============
+The package is available on `PyPI`_.
+
+.. code-block:: bash
+
+    # Make sure we have an up-to-date version of pip and setuptools:
+    $ pip install --upgrade pip setuptools
+
+    $ pip install --upgrade dataserviceclient
+
+
+.. _Duke Data Service: https://github.com/Duke-Translational-Bioinformatics/duke-data-service
+.. _PyPI: https://pypi.python.org/pypi/dataserviceclient
