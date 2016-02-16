@@ -1,6 +1,9 @@
-****************************************************************
-duke-data-service-pythonClient: dataserviceclient python package
-****************************************************************
+*************************************************
+duke-data-service-pythonClient: dataserviceclient
+*************************************************
+
+.. image:: images/logo2.png
+
 dataserviceclient is a python package that aims to make programmatic access
 to the `Duke Data Service`_ easy and enjoyable. 
 
